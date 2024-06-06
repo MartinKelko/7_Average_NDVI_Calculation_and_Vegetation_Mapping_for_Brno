@@ -1,1 +1,2 @@
-# Average-NDVI-Calculation-and-Vegetation-Mapping-for-Brno-Czechia
+The dataset contains four raster images in GeoTIFF format, representing Sentinel-2 NDVI (Normalized Difference Vegetation Index) data for the city of Brno, Czechia. Additionally, the folder includes Brno's boundaries in ESRI Shapefile format.
+The task is to create a new raster image (TIFF) that represents the average NDVI values from all the input rasters. Some images include -999 values, which generally indicate clouds, and these should be excluded from the calculation.
